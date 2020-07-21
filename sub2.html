@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>자기소개사이트</h1>
+    <form action="www.naver.com/" method="post">
+        <label for='userid_input'>이메일</label>
+            <input type='text' name='userid' placeholder="아이디를 입력하세요" />
+        <br />
+        <label for='userpw_input'>비밀번호</label>
+            <input type='password' name='userpw' placeholder="비밀번호를 입력하세요"
+        <br />
+        <br />
+        <label for='answer'>비밀번호답변</label>
+        <select name= 'answer'>
+            <option value = '집주소 '>집주소</option>
+            <option value = '부모님이름 '>부모</option>
+            <option value = '본인이름'>본인이름</option>
+        </select>
+        <br />
+        <label for='intro'></label>
+        <textarea id='intro' name='content' cols='50' rows='50'>
+                    자기소개서
+        </textarea>
+        <button type='submit'>제출</button>
+    </form>
+</body>
+</html>
