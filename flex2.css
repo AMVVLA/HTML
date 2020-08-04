@@ -1,0 +1,17 @@
+
+  .box_container{
+      width: 330px;
+      height: 105px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  
+  .box {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: red;
+    margin: 3px;
+  }
+
