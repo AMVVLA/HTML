@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href ='./data.css' />
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="box">
+    <div class="nav_box">
+        <div class="nav" style="cursor: pointer;" onclick="window.location='./data.html';">Navigation 1</div>
+        <div class="nav" style="cursor: pointer;" onclick="window.location='./maker.html';">Navigation 2</div>
+        <div class="nav" style="cursor: pointer;" onclick="window.location='./save.html';">Navigation 3</div>
+        <div class="nav" style="cursor: pointer;" onclick="window.location='./end.html';">Navigation 4</div>
+        </div>
+        <div class = "sub_box">
+            <div class = "sub">데이터 처리</div>
+        </div>
+    <div class = exp_box>
+        <div class = exp>1.설명</div>
+        <div class = exp>2.설명</div>
+        <div class = exp>3.설명</div>
+        <div class = exp>4.설명</div>
+    </div>
+    
+    <form action="./db" method="post">
+            <textarea placeholder="Data Input" id='intro' name='content' cols='120' rows='10'></textarea>
+            <br>
+            <button class = 'submit1'>Data Processing</button>
+    </form>
+    <br>
+    <form action="./db2" method="post">
+            <textarea placeholder="Data Output" id='intro' name='content' cols='120' rows='17'></textarea>
+        <br>
+        <div class = submit_box2>
+            <button class = 'submit2'>Reset</button>
+            <button class = 'submit2'>Save</button>
+        </div>
+    </form>
+    <div class= subtitle_box>
+        <div class = subtitle>광주 인공지능 사관학교 워밍업 프로젝트 </div>
+    </div>
+    </div>
+</body>
+</html>
